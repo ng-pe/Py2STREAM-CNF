@@ -62,9 +62,9 @@ class Py2StreamConfigGenerator:
 
 if __name__ == '__main__':
     print("Py2STREAM-CNF v0.1")
-    print("Panasonic P2STREAM.CNF CLI configuration tools\n")
+    print("CLI for Panasonic P2STREAM.CNF configuration file\n")
 
-    parser = argparse.ArgumentParser(description="Panasonic P2STREAM.CNF CLI configuration tools")
+    parser = argparse.ArgumentParser(description="CLI for Panasonic P2STREAM.CNF configuration file")
     parser.add_argument('-f', '--force', dest='forced', action='store_true', default=False,required=False, help='Force overwrite if file exists')
     parser.add_argument('-a', '--action', choices=['print', 'gen'], default='print', required=False,  help='Print or generate file')
     parser.add_argument('-v', '--verbose', action='store_true', default=False, required=False, help='Enable debug mode')
