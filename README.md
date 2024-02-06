@@ -12,8 +12,6 @@ CLI for Panasonic P2STREAM.CNF configuration file
 
 usage: Py2STREAM-CNF.py [-h] [-f] [-a {print,gen}] [-v] [--url URL] [--file FILE]
 
-Panasonic P2STREAM.CNF CLI configuration tools
-
 options:
   -h, --help            show this help message and exit
   -f, --force           Force overwrite if file exists
